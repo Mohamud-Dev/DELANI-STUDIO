@@ -13,7 +13,7 @@ html{
   text-align: center;
   padding-top:17%; 
   font-family: 'Gabriela', serif;
-  /* padding-bottom:5%; */
+  
 }
 .landing h1{
   padding: 2px;
@@ -32,7 +32,7 @@ html{
   padding-top : 22px;
   margin-top: 10%;
   padding-bottom: 30px; 
-  
+ 
 }
 #mouse-click {
   animation: bounce 2s infinite;
@@ -82,7 +82,7 @@ html{
   font-family: 'Quattrocento', serif;
   text-align: center;
   padding-top: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Gabriela', serif;
 }
 .what-we-do .headings{
   padding-bottom: 38px;
@@ -101,16 +101,15 @@ html{
 .portfolio h2{
   text-align: center;
   padding-top:40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Gabriela', serif;
 }
 .contact{
-    background-image: url(https://raw.githubusercontent.com/Mohamud-Dev/IP3/master/assets/backgrounds/c_image.jpg);
-    
+  background-image: url(https://raw.githubusercontent.com/Mohamud-Dev/IP3/master/assets/backgrounds/c_image.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-
+  
 }
 .title{
   padding: 6px;
@@ -126,9 +125,12 @@ html{
     }
     
     #contact{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Amita";
     }
-   .form{
+    
+    
+    
+    .form{
     width: 700px;
     max-width: 100%;
     left: 50%;
@@ -154,10 +156,10 @@ html{
     
     ::placeholder,
     .mail {
-    color: rgb(234, 242, 243);
+    color: #fff;
     }
     ::placeholder{
-    font-size: medium;
+    font-size: 10px;
     }
     
 button {
@@ -168,7 +170,7 @@ button {
 footer{
       text-align: center;
       padding-top: 30px;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: 'Delius Swash Caps', cursive;
 }
 footer p{
        margin-top: 10px;
@@ -185,10 +187,10 @@ footer p{
 }
 #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
   display: none;
-  color: black;
+  color: rgb(201, 170, 49);
   width: 100%;
   height: 100%;
-  background-color:rgba(255, 255, 255, 0.456);
+  background-color:rgba(80, 77, 77, 0.456);
   position:absolute;
   top: 20px;
   left: 35px;
@@ -196,7 +198,7 @@ footer p{
   text-align: center;
   font-size: 30px;
   padding-top: 50%;
-  font-family: 'Delius Swash Caps', cursive;
+  font-family: sans-serif;
 }
 @media only screen and (max-width: 755px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
@@ -219,6 +221,7 @@ footer p{
     margin-left: 2%;
     padding-bottom: 30px;
     margin-bottom: 20px;
+    }
 }
 @media only screen and (max-width: 425px){
   #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
